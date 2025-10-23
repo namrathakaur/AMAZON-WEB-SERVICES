@@ -1,0 +1,61 @@
+What a cloud cloud provides tools to
+deploy services no downtime and 
+long-term working with 99.9 and
+security deploy services and access 
+through internet one of the Services 
+provided in the cloud is easy to that
+is elastic compute service it is a 
+virtual machine which is used for
+virtualization what is virtualization
+for suppose if you have a computer
+having hardware such as motherboard
+and overs window to access the mother
+board or Online hardware 
+responsibility is of AWS he pair 
+is for application installation 
+and connection what is hyperrichytise
+is to run multiple virtual machines
+on a single physical machine how
+to access ADS account there are 2
+ways to access adw's account 
+graphical user interface and
+programmatical wave in graphical 
+user interface you give name and 
+password this consists of 7 steps  
+where as Programmatical way needs 
+to be programmed when such as CLI
+that is command line interface
+command line interface conscious
+of access key and Secret access
+key these 2 are access using IAM 
+that is IAM The command to access
+programmatical way of awes'
+through AWS configure here in
+graphical user interface a service 
+is created and see if the service
+is available or should we use cli
+for more than 100 servers to be 
+deployed you need to use cli that 
+is command line interface that it 
+is used for the timing and automation
+What is terraform terraform is a
+tool which is used for creation 
+of an infrared an infra is used
+via terraform to use any of the 
+cloud services other than AWS 
+without any much prior knowledge 
+required about it terraform is
+known as cloud agnostic which
+means work with different clouds
+such as aesure or gcp without any
+much deep information about the 
+Cloud usage and tools iac tool 
+that is infra as a code using
+terraform automation used tech 
+and no manual work automatically 
+logging in logging out stopping a 
+process starting a plus Split time 
+limits already said free open source
+is Terra firm tool it is independent
+time-saving and faster and no mistakes
+can be easily accessed and used
