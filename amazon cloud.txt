@@ -1,0 +1,27 @@
+CFT - cloud formation template (premium)
+Terraform : 
+1.It's a tool
+2. Infrastructure as a code (IAAC code)
+3. cloud agnostic (azure,GCP)
+4.free -open source
+5. independent (not depended on any platform)
+6.time saving,faster
+7.automation
+8.no mistakes
+
+APP accessing--> www.(thorugh route53)DNS services-->aws provider -->
+                                                                                     |
+                                                                                vpc (networking)
+                                                                                     |
+                                                                                   EC2
+                                                                                     |
+                                                                                 EBS (if extrage storage needed)
+Cloud is accessed thorugh internet . Cloud is a data center. The application (APP) deploys in EC2 and stores in VPC network 
+-> VPC is a natwork that provides IP'S
+-> we run applications in cloud
+->EC2- elastic compute cloud - here compute is a hardware - os provides network - EC2-EBS
+Elastic -> scaling ,to scale out or scale in according to the requirement 
+virtual machine- not physical 
+--> Virtualization : application deployment using services- AWSSCLI (account login) -> VPC (network) -> EC2 to access an application--> ELB -->
+route 53 (DNS) ==> Cloud watch - to monitor running of an application 
+ 
