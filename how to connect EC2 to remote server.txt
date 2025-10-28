@@ -1,0 +1,31 @@
+ how to connect EC2 to remote server : 
+EC2_user : giving user name : to create 7 stpes in EC2 
+we use public ip and private ip : 
+-To calculate ip - 2^32-n 
+-A computer consists of hardware-os-application-EC2-cloud-data center-(it has hardware software and data storage devices - regional
+Data center - Mumbai and Hyderabad 
+To create VP- choose a region : A group of data zones have high avaibalitycalled availability zone 
+1 availability zone consists of min 3 to 6 data centers 
+
+tree diagram : 1 region --3 to 6 data centers --1 availability zone
+hardware--->os--->application--->aws--->data centers--->Hyderabad,mumbai (region)--->min 3 max 6 availability zones---> each availability zone has 3 data centers  ---> for eg : 1.availability zone =3 ds ,2.availability zone=3ds ,3.availability zone=3ds =9  data centers 
+In US there 6 availability zones 
+
+VPC - virtual private cloud ..its a network environment with public cloud infrastructure provider 
+VPC--->availability zone--->data center--->EC2,S3---> launch name, AMI, keypair , instance type , VPC , storage 
+
+what are subnets?
+subdivisions of vpc ip address range used to group resources like EC2 instances and databases within a single Availability Zone. They can be public, meaning resources can access the internet directly via an internet gateway, or private, which requires a NAT device for outbound internet access but no direct inbound access from the internet 
+Difference between the public subnet and private subnet
+If we talk in simple language, instances in the public subnet can send traffic to the outside world whereas instances in the private subnet can't.
+
+Now you must be wondering how we define/identify public and private subnets. To understand it better, let's come back to the subnet we created named public-subnet-1. I have named it "public" but it is not public yet.
+
+To understand between the public subnet and private subnet, let's understand the Route table, Internet gateway, and NAT gateway
+
+Route Table: It is used to do routing decisions. It contains existing routes to CIDR blocks outside of the ranges in your VPC. For example, it controls routing to Internet gateways, NAT gateways
+
+Internet Gateway: It is a component that allows communication between VPC and internet. If your VPC doesn't have an internet gateway, resources within your VPC can't be accessed from the internet. For example, a website deployed to one of your EC2 servers.
+
+NAT Gateway: A Network Address Translation (NAT) allows instances in your private subnet to connect to outside services like Databases but restricts external services to connecting to these instances.
+
